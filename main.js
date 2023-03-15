@@ -1,6 +1,6 @@
 document.querySelector("li").remove()
 document.querySelector("span").remove()
-document.querySelector("article")[2].remove()
+document.querySelector(".posts article").remove()
 
 let articles = document.querySelectorAll("h3")
 articles.forEach(article => {
